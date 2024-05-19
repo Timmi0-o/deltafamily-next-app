@@ -41,7 +41,7 @@ export const FAQ = () => {
 					<div
 						className={`${
 							faqIndex === i
-								? 'opacity-100 mt-[25px] mb-[20px] mx-[20px] max-w-[1300px] max-h-[300px] border-r-[1px] border-b-[1px] border-[#8c6ed72b] shadow-[#8c6ed713] shadow-xl'
+								? 'opacity-100 mt-[25px] mb-[20px] mx-[20px] max-w-[1300px] max-h-fit border-r-[1px] border-b-[1px] border-[#8c6ed72b] shadow-[#8c6ed713] shadow-xl'
 								: 'opacity-0 mt-0 max-h-0 border-r-[1px] border-b-[1px] border-transparent'
 						} relative p-[10px] rounded-[12px] duration-[400ms] overflow-hidden`}
 					>
