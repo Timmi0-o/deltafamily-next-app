@@ -45,9 +45,7 @@ export const AboutAs = () => {
 				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[1000px]'>
 					<Image
 						className='rounded-[12px]'
-						src={
-							'https://downloader.disk.yandex.ru/preview/102fd7adaeba0662470a809eaa645574bcccc7958e2c28b51327d75782de320d/66464354/7Bw1whCeKv2aRwPeq916jW-i2s-WzDpeZKZYvOfZMBa-6bXGNGuH9LBDNavJpIC9ky5Y8cP0rZ6KIG58a_sOfg%3D%3D?uid=0&filename=DSC_5825.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=1920x956'
-						}
+						src={'/group.jpg'}
 						width={800}
 						height={400}
 						alt=''
