@@ -31,18 +31,22 @@ export const AboutAs = () => {
 	return (
 		<div className='flex flex-col items-center gap-[60px]'>
 			<div>
-				<p className='logo text-[150px] mt-[60px] select-none'>Дельта-План</p>
+				<p className='logo text-[60px] sm:text-[75px] md:text-[100px] lg:text-[125px] xl:text-[150px] mt-[60px] select-none'>
+					Дельта-План
+				</p>
 			</div>
 			<div className='flex gap-[5px] select-none'>
-				<span className='text-[56px]'>Семейная школа в</span>
-				<div className='flex items-center w-[480px] text-[56px] font-medium dropping-texts'>
+				<span className='text-[23px] md:text-[42px] lg:text-[50px] xl:text-[56px]'>
+					Семейная школа в
+				</span>
+				<div className='flex items-center w-[200px] sm:w-[240px] md:w-[350px] lg:w-[480px] text-[23px] md:text-[42px] lg:text-[50px] xl:text-[56px] font-medium dropping-texts'>
 					<p className={`text-[#843cff] duration-300 ${wordAnimate}`}>
 						{`[ ${nowWord} ]`}
 					</p>
 				</div>
 			</div>
-			<div className='flex justify-between'>
-				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[1000px]'>
+			<div className='flex flex-col items-center md:flex-row md:justify-between'>
+				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[300px] md:max-w-fit h-fit'>
 					<Image
 						className='rounded-[12px]'
 						src={'/group.jpg'}
@@ -51,8 +55,8 @@ export const AboutAs = () => {
 						alt=''
 					/>
 				</div>
-				<div className='flex justify-center items-center pl-[40px] w-[500px]'>
-					<p className='text-[42px] font-medium text-[#000000ce] leading-normal'>
+				<div className='mt-[10px] md:pl-[40px] w-[400px] md:max-w-[500px]'>
+					<p className='text-[24px] md:text-[42px] font-medium text-[#000000ce] leading-normal'>
 						Дельта-План - школа, которая <AccentWord>успевает </AccentWord>
 						меняться вместе с<AccentWord> миром</AccentWord> вокруг!
 					</p>

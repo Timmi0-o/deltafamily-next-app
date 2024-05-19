@@ -17,14 +17,14 @@ export const FAQ = () => {
 		<div>
 			{faqQest.map((qest, i) => (
 				<div
-					className={`duration-300 mb-[20px] pt-[20px] ${
+					className={`duration-300 mb-[20px] pt-[20px] mx-[10px] md:mx-0 ${
 						faqIndex !== null && 'pb-[10px]'
 					}  bg-[#f4f4f4] rounded-[12px]`}
 					key={i}
 					onClick={() => onOpen(i)}
 				>
 					<div className='flex justify-between px-[15px] select-none cursor-pointer'>
-						<p className='text-[28px] text-left font-normal max-w-[1200px]'>
+						<p className='sm:text-[28px] xl:text-[28px] text-left font-normal max-w-[1200px]'>
 							{qest.title}
 						</p>
 						<svg
