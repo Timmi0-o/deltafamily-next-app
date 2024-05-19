@@ -46,7 +46,7 @@ export const AboutAs = () => {
 				</div>
 			</div>
 			<div className='flex flex-col items-center md:flex-row md:justify-between'>
-				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[300px] md:max-w-fit h-fit'>
+				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[350px] md:max-w-fit h-fit'>
 					<Image
 						className='rounded-[12px]'
 						src={'/group.jpg'}
@@ -55,7 +55,7 @@ export const AboutAs = () => {
 						alt=''
 					/>
 				</div>
-				<div className='mt-[10px] md:pl-[40px] w-[300px] md:max-w-[500px]'>
+				<div className='mt-[10px] md:pl-[40px] w-[350px] md:max-w-[500px]'>
 					<p className='text-[22px] md:text-[42px] font-medium text-[#000000ce] leading-normal'>
 						Дельта-План - школа, которая <AccentWord>успевает </AccentWord>
 						меняться вместе с<AccentWord> миром</AccentWord> вокруг!

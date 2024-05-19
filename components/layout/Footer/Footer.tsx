@@ -5,7 +5,7 @@ export const Footer = () => {
 	return (
 		<div className='flex justify-center items-center bg-[#ffe6d6]'>
 			<Container gap='20px'>
-				<p className='font-normal text-[16px] md:text-[20px] text-center leading-normal'>
+				<p className='font-normal text-[14px] md:text-[20px] text-center leading-normal'>
 					Фонд поддержки образовательных инициатив и социальных проектов
 					&quot;Дельта-План&quot;, ИНН 1900004754, ОГРН 1211900004150 Адрес:
 					Республика Хакасия, г. Абакан, ул. Чертыгашева, 69, 2 эт.

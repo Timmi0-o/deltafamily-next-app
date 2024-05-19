@@ -19,7 +19,7 @@ export const SchoolGrades = () => {
 					</div>
 					<Container>
 						<div className='flex flex-col items-center justify-center md:flex-row md:justify-between'>
-							<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[300px] md:max-w-[1000px]'>
+							<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[350px] md:max-w-[1000px]'>
 								<Image
 									className='rounded-[12px]'
 									src={section.img}
@@ -28,7 +28,7 @@ export const SchoolGrades = () => {
 									alt=''
 								/>
 							</div>
-							<p className='max-w-[350px] md:max-w-[700px] md:pl-[40px] mt-[10px] text-[18px] md:text-[26px] leading-normal font-medium border'>
+							<p className='max-w-[350px] md:max-w-[700px] md:pl-[40px] mt-[10px] text-[18px] md:text-[26px] leading-normal font-normal'>
 								{section.description}
 							</p>
 						</div>

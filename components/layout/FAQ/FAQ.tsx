@@ -24,7 +24,7 @@ export const FAQ = () => {
 					onClick={() => onOpen(i)}
 				>
 					<div className='flex justify-between px-[15px] select-none cursor-pointer'>
-						<p className='text-[16px] sm:text-[28px] xl:text-[28px] text-left font-normal max-w-[300px] md:max-w-[1200px]'>
+						<p className='text-[18px] sm:text-[28px] xl:text-[28px] text-left font-normal max-w-[300px] md:max-w-[1200px]'>
 							{qest.title}
 						</p>
 						<svg
