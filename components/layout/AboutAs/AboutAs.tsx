@@ -29,17 +29,17 @@ export const AboutAs = () => {
 	}, [wordIndex])
 
 	return (
-		<div className='flex flex-col items-center gap-[60px]'>
+		<div className='flex flex-col items-center gap-[30px] md:gap-[60px] mx-[10px] md:mx-0'>
 			<div>
-				<p className='logo text-[60px] sm:text-[75px] md:text-[100px] lg:text-[125px] xl:text-[150px] mt-[60px] select-none'>
+				<p className='logo text-[55px] sm:text-[75px] md:text-[100px] lg:text-[125px] xl:text-[150px] mt-[60px] select-none'>
 					Дельта-План
 				</p>
 			</div>
-			<div className='flex gap-[5px] select-none'>
-				<span className='text-[23px] md:text-[42px] lg:text-[50px] xl:text-[56px]'>
+			<div className='flex gap-[4px] select-none'>
+				<span className='text-[20px] md:text-[42px] lg:text-[50px] xl:text-[56px]'>
 					Семейная школа в
 				</span>
-				<div className='flex items-center w-[200px] sm:w-[240px] md:w-[350px] lg:w-[480px] text-[23px] md:text-[42px] lg:text-[50px] xl:text-[56px] font-medium dropping-texts'>
+				<div className='flex items-center w-[170px] sm:w-[240px] md:w-[350px] lg:w-[480px] text-[20px] md:text-[42px] lg:text-[50px] xl:text-[56px] font-medium dropping-texts'>
 					<p className={`text-[#843cff] duration-300 ${wordAnimate}`}>
 						{`[ ${nowWord} ]`}
 					</p>
@@ -55,14 +55,14 @@ export const AboutAs = () => {
 						alt=''
 					/>
 				</div>
-				<div className='mt-[10px] md:pl-[40px] w-[400px] md:max-w-[500px]'>
-					<p className='text-[24px] md:text-[42px] font-medium text-[#000000ce] leading-normal'>
+				<div className='mt-[10px] md:pl-[40px] w-[300px] md:max-w-[500px]'>
+					<p className='text-[22px] md:text-[42px] font-medium text-[#000000ce] leading-normal'>
 						Дельта-План - школа, которая <AccentWord>успевает </AccentWord>
 						меняться вместе с<AccentWord> миром</AccentWord> вокруг!
 					</p>
 				</div>
 			</div>
-			<div className='relative text-[28px] font-medium w-full'>
+			<div className='relative text-[14px] md:text-[28px] font-medium w-full'>
 				<FlyingSquares />
 				{proposition.map((text, i) => (
 					<div
@@ -71,7 +71,9 @@ export const AboutAs = () => {
 							i % 2 !== 0 ? 'justify-end' : 'justify-start'
 						}`}
 					>
-						<p className={`max-w-[800px] leading-normal`}>{text}</p>
+						<p className={`max-w-[350px] md:max-w-[800px] leading-normal`}>
+							{text}
+						</p>
 					</div>
 				))}
 				<div className='absolute bottom-0 left-0 w-full shadow-up'></div>

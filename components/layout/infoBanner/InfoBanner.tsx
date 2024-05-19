@@ -11,11 +11,16 @@ export const InfoBanner = () => {
 				<span className='hidden md:block md:text-[23px] lg:text-[24px] xl:text-[28px] text-[#4f4f4f] select-none'>
 					Семейный лагерь в Хакасии с 29 июня по 7 июля
 				</span>
-				<span className='block text-[28px] md:hidden text-[#4f4f4f] select-none'>
+				<span className='block text-[24px] md:hidden text-[#4f4f4f] select-none'>
 					Семейный лагерь
 				</span>
 				<Link href='https://sites.google.com/view/deltaplan19/family/famcamp19'>
-					<Button>Узнать подробности</Button>
+					<Button size='block md:hidden w-[100px] h-[40px] text-[14px]'>
+						Подробности
+					</Button>
+					<Button size='hidden md:block w-[120px] h-[40px] text-[12px]'>
+						подробности
+					</Button>
 				</Link>
 			</div>
 			<ProgressBar />

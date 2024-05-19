@@ -18,21 +18,19 @@ export const FAQ = () => {
 			{faqQest.map((qest, i) => (
 				<div
 					className={`duration-300 mb-[20px] pt-[20px] mx-[10px] md:mx-0 ${
-						faqIndex !== null && 'pb-[10px]'
+						faqIndex !== null && 'pb-[1px] md:pb-[10px]'
 					}  bg-[#f4f4f4] rounded-[12px]`}
 					key={i}
 					onClick={() => onOpen(i)}
 				>
 					<div className='flex justify-between px-[15px] select-none cursor-pointer'>
-						<p className='sm:text-[28px] xl:text-[28px] text-left font-normal max-w-[1200px]'>
+						<p className='text-[16px] sm:text-[28px] xl:text-[28px] text-left font-normal max-w-[300px] md:max-w-[1200px]'>
 							{qest.title}
 						</p>
 						<svg
 							className={`${
 								faqIndex === i ? 'rotate-180' : 'rotate-0'
-							} duration-[400ms]`}
-							width='32'
-							height='32'
+							} duration-[400ms] size-[24px] md:size-[32px]`}
 							viewBox='0 0 24 24'
 						>
 							<path d='M5.41 7.59L4 9l8 8 8-8-1.41-1.41L12 14.17'></path>
@@ -41,12 +39,14 @@ export const FAQ = () => {
 					<div
 						className={`${
 							faqIndex === i
-								? 'opacity-100 mt-[25px] mb-[20px] mx-[20px] max-w-[1300px] max-h-[800px] border-r-[1px] border-b-[1px] border-[#8c6ed72b] shadow-[#8c6ed713] shadow-xl'
+								? 'opacity-100 mt-[25px] mb-[20px] mx-[10px] md:mx-[20px] max-w-[1300px] max-h-[800px] border-r-[1px] border-b-[1px] border-[#8c6ed72b] shadow-[#8c6ed713] shadow-xl'
 								: 'opacity-0 mt-0 max-h-[0px] border-r-[1px] border-b-[1px] border-transparent'
 						} relative p-[10px] rounded-[12px] duration-[400ms] overflow-hidden`}
 					>
 						<FlyingSquares sqBg='#5c8dbd3f' />
-						<p className='leading-normal text-[18px]'>{qest.description}</p>
+						<p className='leading-normal text-[14px] sm:text-[18px]'>
+							{qest.description}
+						</p>
 					</div>
 				</div>
 			))}
