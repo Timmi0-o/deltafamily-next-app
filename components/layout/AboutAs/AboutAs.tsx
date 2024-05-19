@@ -29,7 +29,7 @@ export const AboutAs = () => {
 	}, [wordIndex])
 
 	return (
-		<div className='flex flex-col items-center gap-[30px] md:gap-[60px] mx-[10px] md:mx-0'>
+		<div className='flex flex-col items-center justify-center w-full gap-[30px] md:gap-[60px] px-[10px] md:mx-0'>
 			<div>
 				<p className='logo text-[55px] sm:text-[75px] md:text-[100px] lg:text-[125px] xl:text-[150px] mt-[60px] select-none shadow-[#8c6ed713] shadow-xl px-5 rounded-md'>
 					Дельта-План
@@ -45,8 +45,8 @@ export const AboutAs = () => {
 					</p>
 				</div>
 			</div>
-			<div className='flex flex-col items-center md:flex-row w-full'>
-				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[350px] md:max-w-[700px] h-fit'>
+			<div className='flex flex-col items-center md:flex-row'>
+				<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-fit md:max-w-fit h-fit'>
 					<Image
 						className='rounded-[12px]'
 						src={'/group.jpg'}
@@ -55,7 +55,7 @@ export const AboutAs = () => {
 						alt=''
 					/>
 				</div>
-				<div className='mt-[10px] md:mt-0 ml-[10px] md:ml-[30px] w-[350px] md:w-[450px]'>
+				<div className='mt-[10px] md:mt-0 ml-[10px] md:ml-[30px] w-fit md:w-[450px]'>
 					<p className='text-[22px] md:text-[38px] font-medium text-[#000000ce] leading-normal'>
 						Дельта-План - школа, которая <AccentWord>успевает </AccentWord>
 						меняться вместе с<AccentWord> миром</AccentWord> вокруг!

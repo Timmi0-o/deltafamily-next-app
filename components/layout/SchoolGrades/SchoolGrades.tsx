@@ -18,8 +18,8 @@ export const SchoolGrades = () => {
 						</span>
 					</div>
 					<Container>
-						<div className='flex flex-col items-center justify-center md:flex-row md:justify-between'>
-							<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-[350px] md:max-w-[1000px]'>
+						<div className='flex flex-col items-center justify-center md:flex-row md:justify-between px-[10px]'>
+							<div className='rounded-[12px] border-[1px] border-[#843cff] max-w-fit md:max-w-[1000px]'>
 								<Image
 									className='rounded-[12px]'
 									src={section.img}
@@ -28,7 +28,7 @@ export const SchoolGrades = () => {
 									alt=''
 								/>
 							</div>
-							<p className='max-w-[350px] md:max-w-[700px] md:pl-[40px] mt-[10px] text-[18px] md:text-[26px] leading-normal font-normal'>
+							<p className='max-w-fit md:max-w-[700px] md:pl-[40px] mt-[10px] text-[18px] md:text-[26px] leading-normal font-normal'>
 								{section.description}
 							</p>
 						</div>
@@ -47,11 +47,11 @@ const schoolSections = [
 		description:
 			'Здесь закладываются базовые знания по предметам - то есть фундамент. И он должен быть надежным! Наша задача – не просто подготовиться к аттестации по школьной программе, заучив все, что написано в тематических планах, а добиться качественного усвоения необходимых знаний и навыков.',
 	},
-	// {
-	// 	title: 'Среднее звено',
-	// 	accent: '5 - 9 класс',
-	// 	img: 'https://goo.su/gPobg',
-	// 	description:
-	// 		'Здесь учащиеся углубляют свои знания по основным предметам, развивают критическое мышление и аналитические способности. Мы стремимся к тому, чтобы наши ученики не только успешно сдавали экзамены, но и понимали и применяли полученные знания на практике. Основное внимание уделяется всестороннему развитию личности, навыкам самостоятельного мышления и подготовке к дальнейшему обучению.',
-	// },
+	{
+		title: 'Среднее звено',
+		accent: '5 - 9 класс',
+		img: '/5-9Grades.jpg',
+		description:
+			'Здесь учащиеся углубляют свои знания по основным предметам, развивают критическое мышление и аналитические способности. Мы стремимся к тому, чтобы наши ученики не только успешно сдавали экзамены, но и понимали и применяли полученные знания на практике. Основное внимание уделяется всестороннему развитию личности, навыкам самостоятельного мышления и подготовке к дальнейшему обучению.',
+	},
 ]
