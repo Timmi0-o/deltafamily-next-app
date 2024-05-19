@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.shadow-up {
+		@apply shadow-lg;
+		box-shadow: 0 -0px 6px 10px rgba(255, 255, 255, 0.863);
+	}
+}
+
+body {
+	text-align: justify;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+	width: 8px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+	background: rgb(255, 255, 255); /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #8b6ed7; /* цвет плашки */
+	border-radius: 2px; /* закругления плашки */
+}
