@@ -15,7 +15,7 @@ export const FAQ = () => {
 
 	return (
 		<div>
-			{faqQest.map((qest, i) => (
+			{faqQuest.map((quest, i) => (
 				<div
 					className={`duration-300 mb-[20px] pt-[20px] mx-[10px] md:mx-0 ${
 						faqIndex !== null && 'pb-[1px] md:pb-[10px]'
@@ -25,7 +25,7 @@ export const FAQ = () => {
 				>
 					<div className='flex justify-between px-[15px] select-none cursor-pointer'>
 						<p className='text-[18px] sm:text-[28px] xl:text-[28px] text-left font-normal max-w-[340px] md:max-w-[1200px]'>
-							{qest.title}
+							{quest.title}
 						</p>
 						<svg
 							className={`${
@@ -45,7 +45,7 @@ export const FAQ = () => {
 					>
 						<FlyingSquares sqBg='#5c8dbd3f' />
 						<p className='leading-normal text-[14px] sm:text-[18px]'>
-							{qest.description}
+							{quest.description}
 						</p>
 					</div>
 				</div>
@@ -54,7 +54,7 @@ export const FAQ = () => {
 	)
 }
 
-const faqQest = [
+const faqQuest = [
 	{
 		title: 'Что это значит?',
 		description:

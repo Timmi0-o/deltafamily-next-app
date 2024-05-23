@@ -13,7 +13,7 @@ export const Footer = () => {
 				<div className='flex justify-center gap-[20px]'>
 					{socialNetworks.map((net, i) => (
 						<Link href={net.link} key={i}>
-							<div className='flex justify-center items-center gap-[10px] bg-[#f5f5f5] hover:bg-[#dfdfdf] active:bg-[#dfdfdf8c] active:scale-[0.96] active:text-[#0000003c] rounded-[12px] py-[8px] px-[10px] md:py-[15px] md:px-[20px] duration-300 select-none cursor-pointer'>
+							<div className='flex justify-center items-center gap-[10px] bg-[#f5f5f5] hover:bg-[#ebebeb] active:bg-[#dfdfdf8c] active:scale-[0.96] active:text-[#0000003c] rounded-[12px] py-[8px] px-[10px] md:py-[15px] md:px-[20px] duration-300 select-none cursor-pointer fill-[#8B6ED7] active:fill-[#8c6ed73a]'>
 								<p className='text-[12px] md:text-[16px]'>{net.title}</p>
 								<div>{net.img}</div>
 							</div>
@@ -31,7 +31,6 @@ const socialNetworks = [
 		img: (
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
-				fill='#8B6ED7'
 				viewBox='-2.5 0 32 32'
 				version='1.1'
 				className=' size-[24px] md:size-[32px]'
@@ -48,7 +47,6 @@ const socialNetworks = [
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				viewBox='0 0 24 24'
-				fill='#8B6ED7'
 				className=' size-[24px] md:size-[32px]'
 			>
 				<path

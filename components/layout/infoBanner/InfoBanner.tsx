@@ -18,8 +18,8 @@ export const InfoBanner = () => {
 					<Button size='block md:hidden w-[100px] h-[40px] text-[14px]'>
 						Подробности
 					</Button>
-					<Button size='hidden md:block w-[120px] h-[40px] text-[12px]'>
-						подробности
+					<Button size='hidden md:block w-[160px] h-[40px] text-[14px]'>
+						Узнать подробности
 					</Button>
 				</Link>
 			</div>

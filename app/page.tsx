@@ -5,7 +5,7 @@ import { Container } from '@/components/ui/Container'
 
 export default function Home() {
 	return (
-		<div className=' min-h-[100vh]'>
+		<div className='min-h-[100vh]'>
 			<Container>
 				<AboutAs />
 			</Container>
